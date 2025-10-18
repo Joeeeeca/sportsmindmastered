@@ -23,7 +23,7 @@ export function Header() {
   className="flex items-center space-x-3 cursor-pointer"
 >
   <img
-    src="/Logo.png"
+    src="/sportsmindmastered/Logo.png"
     alt="Simon Capon Logo"
     className="h-10 w-auto md:h-12 object-contain"
   />

@@ -32,8 +32,8 @@ export default function ReviewsPage() {
                   <video
                     controls
                     className="h-full w-full object-cover"
-                    poster="/sportsmindmastered/chris-thumbnail.png"
-                  >
+                    poster="/sportsmindmastered/chris-thumbnail.png" >
+                  
                     <source src="/sportsmindmastered/testimonial1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
