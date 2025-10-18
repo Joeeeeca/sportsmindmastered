@@ -8,23 +8,22 @@ export function Footer() {
         <div className="mx-auto max-w-6xl">
           {/* 3 equal columns */}
           <div className="grid gap-8 md:grid-cols-3 text-center md:text-left">
+            
             {/* Brand */}
             <div className="space-y-4">
-             <h3 className="text-lg font-bold text-white relative inline-block after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
-  Sports Mind Mastered
-</h3>
+              <h3 className="text-lg font-bold text-white relative inline-block after:absolute after:left-1/2 md:after:left-0 after:-translate-x-1/2 md:after:translate-x-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
+                Sports Mind Mastered
+              </h3>
               <p className="text-sm leading-relaxed">
                 Empowering athletes to achieve mental excellence and peak performance.
               </p>
             </div>
 
             {/* Quick Links */}
-            <div className="space-y-4 md:text-center">
-              {/* underline sits under the text, left-aligned */}
-             <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
-  Quick Links
-</h4>
-
+            <div className="space-y-4">
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 md:after:left-1/2 md:after:-translate-x-1/2 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
+                Quick Links
+              </h4>
 
               <ul className="space-y-2 text-sm">
                 <li>
@@ -55,12 +54,10 @@ export function Footer() {
             </div>
 
             {/* Contact */}
-            <div className="space-y-4 md:text-right">
-              {/* same underline trick */}
-          <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block md:ml-auto after:absolute after:right-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
-  Get In Touch
-</h4>
-
+            <div className="space-y-4">
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 md:after:left-auto md:after:right-0 after:-translate-x-1/2 md:after:translate-x-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
+                Get In Touch
+              </h4>
 
               <div className="space-y-2 text-sm">
                 <p>
@@ -78,9 +75,9 @@ export function Footer() {
                   Phone:{' '}
                   <a
                     href="https://wa.me/447753286234"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-gray-300 hover:text-[#6EE7B7] transition-colors duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-[#6EE7B7] transition-colors duration-300"
                   >
                     07753 286 234
                   </a>
