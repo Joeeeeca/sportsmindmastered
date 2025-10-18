@@ -95,7 +95,7 @@ export function Footer() {
               &copy; 2025 Simon Capon. All rights reserved.
             </p>
             <img
-              src="/AIP-logo1.png"
+              src="/sportsmindmastered/AIP-logo1.png"
               alt="AIP Certified"
               className="h-24 w-auto opacity-95"
             />

@@ -18,7 +18,7 @@ export function ContentShowcase() {
             <div className="group space-y-4">
               <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-muted shadow-lg transition-shadow group-hover:shadow-xl">
                 <video className="h-full w-full object-cover" controls poster="/../../Simon-thumbnail-one.png">
-                  <source src="../../public/home-video1.mp4" type="video/mp4" />
+                  <source src="/sportsmindmastered/home-video1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -35,7 +35,7 @@ Learn how to reset your mindset, refocus, and bounce back stronger after mistake
             <div className="group space-y-4">
               <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-muted shadow-lg transition-shadow group-hover:shadow-xl">
                 <video className="h-full w-full object-cover" controls poster="../../public/Simon-thumbnail-two.png">
-                  <source src="../../public/home-video2.mp4" type="video/mp4" />
+                  <source src="/sportsmindmastered/home-video2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

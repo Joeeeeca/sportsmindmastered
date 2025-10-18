@@ -34,7 +34,7 @@ export default function AboutPage() {
               {/* Image */}
               <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-lg shadow-xl">
                 <img
-                  src="../../../public/self-portrait.png"
+                  src="/sportsmindmastered/self-portrait.png"
                   alt="Sports Psychology Professional"
                   className="h-full w-full object-cover"
                   loading="lazy"

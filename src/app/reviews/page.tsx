@@ -32,9 +32,9 @@ export default function ReviewsPage() {
                   <video
                     controls
                     className="h-full w-full object-cover"
-                    poster="../../../public/chris-thumbnail.png"
+                    poster="/sportsmindmastered/chris-thumbnail.png"
                   >
-                    <source src="../../../public/testimonial1.mp4" type="video/mp4" />
+                    <source src="/sportsmindmastered/testimonial1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -50,9 +50,9 @@ export default function ReviewsPage() {
                   <video
                     controls
                     className="h-full w-full object-cover"
-                    poster="../../../public/Kurt-thumbnail.png"
+                    poster="/sportsmindmastered/Kurt-thumbnail.png"
                   >
-                    <source src="../../../public/testimonial2.mp4" type="video/mp4" />
+                    <source src="/sportsmindmastered/testimonial2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -68,9 +68,9 @@ export default function ReviewsPage() {
                   <video
                     controls
                     className="h-full w-full object-cover"
-                    poster="../../../public/james-thumbnail.png"
+                    poster="/sportsmindmastered/james-thumbnail.png"
                   >
-                    <source src="../../../public/testimonial3.mp4" type="video/mp4" />
+                    <source src="/sportsmindmastered/testimonial3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>

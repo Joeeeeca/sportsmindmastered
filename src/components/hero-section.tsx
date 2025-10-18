@@ -7,9 +7,9 @@ export function HeroSection() {
           <video
             className="h-full w-full object-cover"
             controls
-            poster="../../public/intro-video-thumb.jpg"
+            poster="/sportsmindmastered/intro-video-thumb.jpg"
           >
-            <source src="/Intro-video.mp4" type="video/mp4" />
+            <source src="/sportsmindmastered/Intro-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
