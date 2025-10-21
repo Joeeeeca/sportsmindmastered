@@ -2,15 +2,15 @@ export function Footer() {
   return (
     <footer
       id="contact"
-      className="w-full border-t border-accent/30 bg-[#0a1726] py-16 text-gray-300"
+      className="w-full border-t border-accent/30 bg-[#0a1726] py-20 pb-28 md:py-16 text-gray-300"
     >
       <div className="container mx-auto px-6">
         <div className="mx-auto max-w-6xl">
           {/* 3 equal columns */}
-          <div className="grid gap-8 md:grid-cols-3 text-center md:text-left">
+          <div className="grid gap-8 md:grid-cols-3 text-center">
             
             {/* Brand */}
-            <div className="space-y-4">
+            <div className="space-y-4 md:text-left">
               <h3 className="text-lg font-bold text-white relative inline-block after:absolute after:left-1/2 md:after:left-0 after:-translate-x-1/2 md:after:translate-x-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
                 Sports Mind Mastered
               </h3>
@@ -20,8 +20,8 @@ export function Footer() {
             </div>
 
             {/* Quick Links */}
-            <div className="space-y-4">
-              <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 md:after:left-1/2 md:after:-translate-x-1/2 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
+            <div className="space-y-4 md:text-center">
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
                 Quick Links
               </h4>
 
@@ -54,14 +54,20 @@ export function Footer() {
             </div>
 
             {/* Contact */}
-            <div className="space-y-4">
-              <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block after:absolute after:left-1/2 md:after:left-auto md:after:right-0 after:-translate-x-1/2 md:after:translate-x-0 after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]">
-                Get In Touch
-              </h4>
+            <div className="space-y-4 md:text-right">
+<h4
+  className="text-sm font-semibold uppercase tracking-wider text-gray-200 relative inline-block
+  after:absolute after:left-1/2 md:after:left-auto md:after:right-0
+  after:-translate-x-1/2 md:after:translate-x-0
+  after:-bottom-1 after:h-[2px] after:w-8 after:bg-[#6EE7B7]"
+>
+  Get In Touch
+</h4>
+
 
               <div className="space-y-2 text-sm">
                 <p>
-                  Email:{' '}
+                  Email:{" "}
                   <a
                     href="mailto:info@simoncapon.co.uk"
                     target="_blank"
@@ -72,7 +78,7 @@ export function Footer() {
                   </a>
                 </p>
                 <p>
-                  Phone:{' '}
+                  Phone:{" "}
                   <a
                     href="https://wa.me/447753286234"
                     target="_blank"

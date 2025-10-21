@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ArrowRight, Tag } from "lucide-react"
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
 
 export default function CoursesPage() {
   const courses = [
@@ -39,6 +40,27 @@ export default function CoursesPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
+       <Helmet>
+        <title>Courses | Sports Psychology Training & Mental Performance Programs</title>
+<meta name="description" content="Explore courses designed to enhance focus, confidence, and performance. Learn mental skills through expert-led sports psychology training." />
+<meta name="keywords" content="sports psychology courses, mental performance program, mindset training, athlete workshops, sports confidence, sports resilience" />
+
+<script type="application/ld+json">{`
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Sports Psychology Training",
+  "description": "Courses to help athletes develop mental resilience, focus, and confidence through psychology-based methods.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Sports Mind Mastered",
+    "url": "https://joeeeeca.github.io/sportsmindmastered/"
+  }
+}
+  `}
+</script>
+
+       </Helmet>
       <Header />
 
       <main className="flex-1">
@@ -71,14 +93,18 @@ export default function CoursesPage() {
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold mb-4">{course.title}</h3>
 
-                      <ul className="text-white/90 mb-6 space-y-2 inline-block text-left">
-                        {course.points.map((point, i) => (
-                          <li key={i} className="flex items-start gap-2">
-                            <span className="text-white/70">•</span>
-                            <span>{point}</span>
-                          </li>
-                        ))}
-                      </ul>
+                     <ul className="text-white/90 mb-6 space-y-2 flex flex-col items-center lg:items-start">
+  {course.points.map((point, i) => (
+    <li
+      key={i}
+      className="flex items-center gap-2 text-center md:text-left"
+    >
+      <span className="text-white/70">•</span>
+      <span>{point}</span>
+    </li>
+  ))}
+</ul>
+
                     </div>
 
                     {/* Price */}

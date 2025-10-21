@@ -3,11 +3,41 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { Helmet } from "react-helmet-async"
 
 export default function AboutPage() {
   return (
     <>
       <main className="min-h-screen">
+        <Helmet>
+        <title>About | Simon Capon | Sports Psychology Expert & Mental Coach</title>
+<meta name="description" content="Learn about Simon Capon, a leading expert in sports psychology and mindset coaching. Over 15 years of helping athletes build confidence and perform under pressure." />
+<meta name="keywords" content="sports psychology expert, mental coach, Simon Capon, athlete mindset, sports performance, sport confidence, mental training, focus" />
+
+<script type="application/ld+json">{`
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Simon Capon",
+  "jobTitle": "Sports Psychology Coach",
+  "description": "Sports psychology expert helping athletes improve focus, confidence, and performance.",
+  "url": "https://joeeeeca.github.io/sportsmindmastered/about",
+  "image": "https://joeeeeca.github.io/sportsmindmastered/self-portrait.png",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Sports Mind Mastered"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/",
+    "https://www.facebook.com/",
+    "https://www.instagram.com/"
+  ]
+}
+`}
+</script>
+
+
+</Helmet>
         {/* Header */}
         <Header />
 

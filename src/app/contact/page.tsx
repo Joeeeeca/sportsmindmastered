@@ -4,10 +4,39 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, MessageCircle, Facebook } from "lucide-react"
+import { Helmet } from "react-helmet-async"
+
 
 export default function ContactPage() {
   return (
+
     <div className="min-h-screen flex flex-col">
+       <Helmet>
+  <title>Contact | Sports Psychology Coaching | Book a Session</title>
+  <meta
+    name="description"
+    content="Get in touch with Simon Capon for professional sports psychology coaching. Schedule a consultation or learn more about mindset training."
+  />
+  <meta
+    name="keywords"
+    content="contact sports coach, sports psychology consultation, book coaching, mental performance training, Simon Capon contact"
+  />
+  <script type="application/ld+json">{`
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Sports Mind Mastered",
+      "description": "Book your consultation with Simon Capon for personalized sports psychology coaching.",
+      "url": "https://joeeeeca.github.io/sportsmindmastered/contact",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+447753286234",
+        "email": "info@simoncapon.co.uk",
+        "contactType": "Customer Service"
+      }
+    }
+  `}</script>
+</Helmet>
       <Header />
       <main className="flex-1">
         {/* Hero Section */}

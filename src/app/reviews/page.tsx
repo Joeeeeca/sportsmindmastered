@@ -1,9 +1,32 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { Helmet } from "react-helmet-async"
 
 export default function ReviewsPage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Helmet>
+      <title>Reviews | Athlete Success Stories | Sports Mind Mastered</title>
+<meta name="description" content="Read success stories from athletes who’ve transformed their performance and mindset through Simon Capon’s sports psychology coaching." />
+<meta name="keywords" content="sports psychology reviews, athlete testimonials, sports coach feedback, mindset success stories, performance improvement"/>
+
+  <script type="application/ld+json">{`
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Athlete Success Stories",
+      "description": "Testimonials from athletes coached by Simon Capon through Sports Mind Mastered.",
+      "hasPart": [
+        {
+          "@type": "Review",
+          "reviewBody": "Working with Simon completely changed how I approach competition.",
+          "author": { "@type": "Person", "name": "Athlete" }
+        }
+      ]
+    }
+  `}
+</script>
+</Helmet>
       <Header />
 
       <main className="flex-1">

@@ -2,6 +2,7 @@ export function HeroSection() {
   return (
     <section className="w-full pt-12 md:pt-24">
       <div className="mx-auto max-w-3xl px-4 flex flex-col items-center text-center">
+
         {/* Video */}
         <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-muted shadow-2xl">
           <video

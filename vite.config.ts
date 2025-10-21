@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite"
 import path from "path"
 
 export default defineConfig({
-  base: "/sportsmindmastered/", // 👈 this line is 100% required for GitHub Pages
+  base: "/sportsmindmastered", // ✅ just use root while testing
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
