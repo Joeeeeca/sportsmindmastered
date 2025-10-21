@@ -114,12 +114,8 @@ export default function AboutPage() {
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 text-center md:text-left">
                 {[
                   {
-                    title: "Ph.D. in Sport Psychology",
-                    desc: "Advanced degree from a leading university with focus on performance enhancement",
-                  },
-                  {
-                    title: "Certified Mental Performance Consultant",
-                    desc: "CMPC certification through the Association for Applied Sport Psychology",
+                    title: "AIP certified",
+                    desc: "AIP certification from the Association for Integrative Psychology",
                   },
                   {
                     title: "15+ Years Experience",
@@ -128,14 +124,6 @@ export default function AboutPage() {
                   {
                     title: "Olympic Experience",
                     desc: "Worked with Olympic athletes preparing for international competition",
-                  },
-                  {
-                    title: "Team Consultant",
-                    desc: "Ongoing partnerships with professional and collegiate sports teams",
-                  },
-                  {
-                    title: "Published Researcher",
-                    desc: "Contributions to peer-reviewed journals on mental performance",
                   },
                 ].map((item, i) => (
                   <Card key={i}>

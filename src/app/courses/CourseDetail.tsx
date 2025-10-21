@@ -121,21 +121,21 @@ export default function CourseDetail() {
 
         {/* Hero Section with Gradient */}
         <section className="relative pt-16 px-4">
-          <div className="container mx-auto max-w-6xl">
+          <div className="container mx-auto max-w-6xl text-center md:text-left">
             <Card className="relative overflow-hidden border-0 shadow-xl">
               <div className={`absolute inset-0 bg-gradient-to-br ${course.gradient} opacity-90`} />
               <div className="relative p-8 md:p-12 text-white">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">{course.title}</h1>
-                <div className="flex flex-wrap gap-6 mb-6">
-                  <div className="flex items-center gap-2">
+                <div className="flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-6 mb-6 justify-center md:justify-start">
+                  <div className="flex items-center gap-2 justify-center md:justify-start">
                     <Clock className="w-5 h-5" />
                     <span className="text-lg">{course.duration}</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 justify-center md:justify-start">
                     <Users className="w-5 h-5" />
                     <span className="text-lg">{course.students}</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 justify-center md:justify-start">
                     <Award className="w-5 h-5" />
                     <span className="text-lg">{course.level}</span>
                   </div>
