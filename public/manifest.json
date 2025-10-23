@@ -1,0 +1,21 @@
+{
+  "name": "Sports Mind Mastered",
+  "short_name": "SportsMind",
+  "start_url": "/sportsmindmastered/",
+  "display": "standalone",
+  "background_color": "#0b1a2b",
+  "theme_color": "#6EE7B7",
+  "description": "Sports Psychology and Mental Performance Coaching by Simon Capon",
+  "icons": [
+    {
+      "src": "/sportsmindmastered/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/sportsmindmastered/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
