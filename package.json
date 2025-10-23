@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://joeeeeca.github.io/sportsmindmastered",
-"scripts": {
-  "dev": "vite",
-  "build": "tsc -b && vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "deploy": "npm run build && gh-pages -d dist -b gh-pages"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages --remove false"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
     "clsx": "^2.1.1",
